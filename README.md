@@ -8,5 +8,5 @@ Doesnt conflict with nc_lignite, a similar but simpler mod, though they are are 
 -Reasonably common, tiny deposits everywhere  
 -Yields 1-5 lumps of coal
 # Anthracite
--Uncommon, low-density, sprawling veins 
+-Uncommon, low-density, sprawling veins   
 -Yields 5-9 lumps of coal
