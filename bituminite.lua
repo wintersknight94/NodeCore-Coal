@@ -13,7 +13,9 @@ minetest.register_node(modname .. ":bituminite", {
 			coal = 1,
 			stone = 1,
 			bituminite = 1,
-			cracky = 3
+			cracky = 3,
+			flammable = 50,
+			fire_fuel = 6
 		},
 		sounds = nodecore.sounds("nc_terrain_stony"),
 		alternate_loose = {
@@ -22,7 +24,9 @@ minetest.register_node(modname .. ":bituminite", {
 			groups = {
 				cracky = 0,
 				crumbly = 2,
-				falling_repose = 2
+				falling_repose = 2,
+				flammable = 25,
+				fire_fuel = 8
 			},
 		sounds = nodecore.sounds("nc_terrain_chompy")		
 	}
