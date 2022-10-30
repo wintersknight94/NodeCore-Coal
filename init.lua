@@ -10,3 +10,4 @@ include("anthracite")
 include("refine")
 include("conversion")
 
+include("discovery")
