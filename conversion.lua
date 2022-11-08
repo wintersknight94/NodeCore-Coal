@@ -6,7 +6,7 @@ local modname = minetest.get_current_modname()
 ---------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------
-minetest.register_alias("nc_lignite:stone",					modname .. ":lignite")
+minetest.register_alias("nc_lignite:stone",				modname .. ":lignite")
 ---------------------------------------------------------------------------------------------------
 minetest.register_alias("nc_lignite:stone_1",				modname .. ":lignite")
 minetest.register_alias("nc_lignite:stone_2",				modname .. ":lignite")
@@ -16,10 +16,12 @@ minetest.register_alias("nc_lignite:stone_5",				modname .. ":lignite")
 minetest.register_alias("nc_lignite:stone_6",				modname .. ":lignite")
 minetest.register_alias("nc_lignite:stone_7",				modname .. ":lignite")
 ---------------------------------------------------------------------------------------------------
-minetest.register_alias("nc_lignite:cobble",					modname .. ":bituminite")
-minetest.register_alias("nc_lignite:cobble_loose",			modname .. ":bituminite")
+minetest.register_alias("nc_lignite:cobble",				modname .. ":lignite")
+minetest.register_alias("nc_lignite:cobble_loose",			modname .. ":lignite_loose")
 ---------------------------------------------------------------------------------------------------
-minetest.register_alias("nc_lignite:ore",					modname .. ":anthracite")
+minetest.register_alias("nc_lignite:ore",				modname .. ":lignite")
+---------------------------------------------------------------------------------------------------
+minetest.register_alias("nc_lignite:coal_dust",				"nc_writing:glyph3")
 ---------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------

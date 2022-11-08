@@ -33,6 +33,6 @@ nodecore.register_hint("dig anthracite",
 )
 
 nodecore.register_hint("break lignite, bituminite, or anthracite into chunks",
-	"refine loose coal",
-	"group:wcoal"
+	{true, "refine loose coal", "refine packed coal"},
+	"group:lump_coal"
 )

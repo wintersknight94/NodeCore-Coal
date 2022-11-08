@@ -12,7 +12,7 @@ minetest.register_node(modname .. ":anthracite", {
 		groups = {
 			coal = 1,
 			stone = 1,
-			lignite = 1,
+			anthracite = 1,
 			cracky = 3,
 			flammable = 50,
 			fire_fuel = 8
