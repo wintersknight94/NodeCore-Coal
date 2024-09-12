@@ -2,13 +2,15 @@
 local minetest, nodecore
     = minetest, nodecore
 -- LUALOCALS > ---------------------------------------------------------
-
 local modname = minetest.get_current_modname()
-
+------------------------------------------------------------------------
+local lignite = modname.. "_lignite.png"
+------------------------------------------------------------------------
 minetest.register_node(modname .. ":lignite", {
 	description = ("Lignite"),
-	tiles = {"nc_terrain_stone.png"},
-	color = "tan",
+	tiles = {lignite},
+--	tiles = {"nc_terrain_stone.png"},
+--	color = "tan",
 	groups = {
 		coal = 1,
 		stone = 1,
@@ -20,7 +22,8 @@ minetest.register_node(modname .. ":lignite", {
 	no_repack = true,
 	sounds = nodecore.sounds("nc_terrain_stony"),
 	alternate_loose = {
-		tiles = {"nc_terrain_gravel.png^nc_api_loose.png"},
+		tiles = {lignite.. "^nc_api_loose.png"},
+--		tiles = {"nc_terrain_gravel.png^nc_api_loose.png"},
 		groups = {
 			cracky = 0,
 			crumbly = 2,

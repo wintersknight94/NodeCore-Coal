@@ -2,13 +2,15 @@
 local minetest, nodecore
     = minetest, nodecore
 -- LUALOCALS > ---------------------------------------------------------
-
 local modname = minetest.get_current_modname()
-
+------------------------------------------------------------------------
+local anthrax = modname.. "_anthracite.png"
+------------------------------------------------------------------------
 minetest.register_node(modname .. ":anthracite", {
 	description = ("Anthracite"),
-	tiles = {"nc_terrain_stone.png"},
-	color = "darkslategray",
+	tiles = {anthrax},
+--	tiles = {"nc_terrain_stone.png"},
+--	color = "darkslategray",
 	groups = {
 		coal = 1,
 		stone = 1,
@@ -20,7 +22,8 @@ minetest.register_node(modname .. ":anthracite", {
 	no_repack = true,
 	sounds = nodecore.sounds("nc_terrain_stony"),
 	alternate_loose = {
-		tiles = {"nc_terrain_gravel.png^nc_api_loose.png"},
+		tiles = {anthrax.. "^nc_api_loose.png"},
+--		tiles = {"nc_terrain_gravel.png^nc_api_loose.png"},
 		groups = {
 			cracky = 0,
 			crumbly = 2,
